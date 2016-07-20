@@ -1,8 +1,15 @@
 <section class="page-header">
   <h1 class="project-name">{{ site.title }}</h1>
-  <h2 class="project-tagline">{{ site.tagline }}</h2>
+  <nav class="main-nav">
+    <ul>
+    {% assign pages_list = site.pages %}
+    {% assign group = 'navigation' %}
+    {% include page_list %}
+    </ul>
+  </nav>
 
   <div class="thumbnail-container">
+
     <div class="thumbnail">
     		<ul>
     			<li><img src="images/profile.jpg"></li>

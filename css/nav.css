@@ -1,0 +1,42 @@
+a.active.btn {
+    font-weight: bolder;
+    background: rgba(255, 255, 255, 0.31);
+    border-left: 0px;
+}
+
+nav.main-nav {
+    margin: 0.67em 0;
+    width: 100%;
+}
+
+nav.main-nav li {
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+nav.main-nav li .btn {
+    float: left;
+    border-radius: 0;
+    margin-left: -5px;
+    padding: 5px 16px;
+
+}
+
+nav.main-nav ul {
+    list-style: none;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav.main-nav li:first-child .btn {
+    border-bottom-left-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+}
+
+nav.main-nav li:last-child .btn {
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}

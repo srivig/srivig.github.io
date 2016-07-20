@@ -1,0 +1,13 @@
+<li class="active">
+<a href="/" class="{% if page.url == '/' %}active{% endif %} btn">About</a></li>
+{% for node in pages_list %}
+  {% if group == null or group == node.group %}
+    {% if page.url == node.url %}
+      <li class="active"><a href="{{node.url}}" class="active btn">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url}}" class="btn">{{node.title}}</a></li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign pages_list = nil %}
+{% assign group = nil %}

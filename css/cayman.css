@@ -68,6 +68,7 @@ a {
       padding: 2rem 1rem; } }
 
 .project-name {
+  font-weight: normal;
   margin-top: 0;
   margin-bottom: 0.1rem; }
   @media screen and (min-width: 64em) {
@@ -97,12 +98,14 @@ a {
 .main-content {
   word-wrap: break-word; }
   .main-content :first-child {
-    margin-top: 0; }
+    margin-top: 0;
+    margin: 3rem auto;
+}
   @media screen and (min-width: 64em) {
     .main-content {
       max-width: 64rem;
       padding: 2rem 6rem;
-      margin: 0 auto;
+      margin: 3rem auto;
       font-size: 1.1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .main-content {

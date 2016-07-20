@@ -1,6 +1,6 @@
 .thumbnail li {
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	margin: 0;
 	float: left;
 	overflow: hidden;
@@ -20,7 +20,7 @@
 .thumbnail-container {
     position: absolute;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -75px;
 }
 
 .thumbnail ul{
